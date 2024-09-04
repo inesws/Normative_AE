@@ -1,0 +1,19 @@
+## Steps to preprocess 3T-MRI T1W scans and extract cortical thickness with dk40, and volumes with cobra atlas
+
+1. Install MATLAB version compatible with SPM12 (check here: https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)
+2. Install SPM12: follow instructions from previous site
+3. Install CAT12 toolbox https://neuro-jena.github.io/cat12-help/#download
+5. Dowload this repo folder and save it in a folder in your local computer
+4. Open the MRI_ROI_preprocessing.mlx script in matlab and:
+  a. fill in the correct path 
+        main_folder
+        data_folder: where the .nii files are
+        batch_folder: where the batch files are in your local computer ( in this repository are in Normative_AE/MRI_preprocessing_matlab/batches )
+  b. run the first sections of the script until cat12 segmentation 
+  c. once it's over, run the other sections
+
+5. Run the Extract_ROI.mlx file in matlab to extract correctly the cobra and dk40 ROI features
+
+
+
+        
