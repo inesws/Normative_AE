@@ -7,7 +7,7 @@ In Demo_test all the instructions are given to run a demo.
 Download the folder and follow the instructions:
 ```python
 python run_trained_model.py exemplar_HCP_corr_data/demo_HCP_data.csv trained_normative_autoencoder_model_2.h5 mZ_HCP_estimates.pkl <YOURresuls_folder_name>
-
+```
 # Test the model with new data:
 1. MRI_preprocessing_matlab folder: includes all files for reproducing the MRI preprocessing in Matlab with SPM/CAT12;
    
