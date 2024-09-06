@@ -1,5 +1,5 @@
-## Normative Autoencoder
-#A generalizable normative deep autoencoder for brain morphological anomaly detection: application to the multi-site StratiBip dataset on bipolar disorder in an external validation framework.
+# Normative Autoencoder
+## *A generalizable normative deep autoencoder for brain morphological anomaly detection: application to the multi-site StratiBip dataset on bipolar disorder in an external validation framework.*
 
 An autoencoder model was trained with structural MRI-based features (cortical thickness, gray and white matter volumes) of 1109 healthy young adults from the public 3T Human Connectome Project dataset[1] https://www.humanconnectome.org/study/hcp-young-adult and tested with an age range matched subsample of the multi-site StratiBip [2] private dataset composed of healthy and subjects affected with bipolar disorder. 
 
