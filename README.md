@@ -41,7 +41,7 @@ python run_trained_model.py exemplar_HCP_corr_data/demo_HCP_data.csv trained_nor
 
 # Cite this work 
 
-# References
+# Main References
 [1]  David C. Van Essen, Stephen M. Smith, Deanna M. Barch, Timothy E.J. Behrens, Essa Yacoub, Kamil Ugurbil, for the WU-Minn HCP Consortium. (2013). The WU-Minn Human Connectome Project: An overview. NeuroImage 80(2013):62-79. 
 
 [2] Maggioni E, Crespo-Facorro B, Nenadic I, Benedetti F, Gaser C, Sauer H, Roiz-Santiañez R, Poletti S, Marinelli V, Bellani M, Perlini C, Ruggeri M, Altamura AC, Diwadkar VA, Brambilla P; ENPACT group. Common and distinct structural features of schizophrenia and bipolar disorder: The European Network on Psychosis, Affective disorders and Cognitive Trajectory (ENPACT) study. PLoS One. 2017 Nov 14;12(11):e0188000. doi: 10.1371/journal.pone.0188000. PMID: 29136642; PMCID: PMC5685634.
