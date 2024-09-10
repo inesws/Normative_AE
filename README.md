@@ -5,7 +5,7 @@ An autoencoder model was trained with structural MRI-based features (cortical th
 
 We embedded a confounding removal step in the analysis pipeline that integrated the training sample with the external test set. This step included an M-ComBat harmonization [3,4] and linearly regressing out biological covariates of no interest, age and sex [5,6].
 
-After adjusting for confounding variables (site, age and sex) the HCP data was used to train the normative autoencoder model and the StratiBip to test the model by extracting individual and group-level deviation metrics. The latter included: 
+After adjusting for confounding variables (site, age and sex) the HCP data was used to train the normative autoencoder model [7] and the StratiBip to test the model by extracting individual and group-level deviation metrics. The latter included: 
    1. Identification of significantly deviating ROI in the BD group;
    2. Computing deviating heterogeinity patterns
    3. Computing extreme deviations for each feature by group and by subject
@@ -67,3 +67,5 @@ I. W. Sampaio et al., "Comparison of Multi-site Neuroimaging Data Harmonization 
 [5] Snoek, L., Miletić, S. & Scholte, H. S. How to control for confounds in decoding analyses of neuroimaging data. Neuroimage 184, 741–760 (2019).
 
 [6] Manduchi, E., Fu, W., Romano, J. D., Ruberto, S. & Moore, J. H. Embedding covariate adjustments in tree-based automated machine learning for biomedical big data analyses. BMC Bioinformatics 21, 1–13 (2020).
+
+[7] Pinaya, W. H. L., Mechelli, A. & Sato, J. R. Using deep autoencoders to identify abnormal brain structural patterns in neuropsychiatric disorders: A large-scale multi-sample study. Human Brain Mapping vol. 40 944–954 (2019).
