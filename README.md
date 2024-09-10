@@ -41,6 +41,20 @@ python run_trained_model.py exemplar_HCP_corr_data/demo_HCP_data.csv trained_nor
 
 # Cite this work 
 
+Pre-print bioRxiv (currently Under Review for journal publication):
+A generalizable normative deep autoencoder for brain morphological anomaly detection: application to the multi-site StratiBip dataset on bipolar disorder in an external validation framework.
+Ines Won Sampaio, Emma Tassi, Marcella Bellani, Francesco Benedetti, Igor Nenadic, Mary Phillips, Fabrizio Piras, Lakshmi Yatham, Anna Maria Bianchi, Paolo Brambilla, Eleonora Maggioni
+bioRxiv 2024.09.04.611239; doi: https://doi.org/10.1101/2024.09.04.611239
+
+Related published abstract:
+I. Sampaio, E. Tassi, M. Bellani, I. Nenadic, F. Benedetti, B. Crespo-Facorro, C. Gaser, S. Poletti, M.G. Rossetti, C. Perlini, Y. Torrente, A.M. Bianchi, E. Maggioni, P. Brambilla,
+A generalisable normative deep learning approach for the discrimination of psychiatric disorders based on neuroanatomy,
+Neuroscience Applied, Volume 2, Supplement 1, 2023, 101082, ISSN 2772-4085, https://doi.org/10.1016/j.nsa.2023.101082.
+(https://www.sciencedirect.com/science/article/pii/S2772408523000649)
+
+ComBat-related citation:
+I. W. Sampaio et al., "Comparison of Multi-site Neuroimaging Data Harmonization Techniques for Machine Learning Applications," IEEE EUROCON 2023 - 20th International Conference on Smart Technologies, Torino, Italy, 2023, pp. 307-312, doi: 10.1109/EUROCON56442.2023.10198911. 
+
 # Main References
 [1]  David C. Van Essen, Stephen M. Smith, Deanna M. Barch, Timothy E.J. Behrens, Essa Yacoub, Kamil Ugurbil, for the WU-Minn HCP Consortium. (2013). The WU-Minn Human Connectome Project: An overview. NeuroImage 80(2013):62-79. 
 
